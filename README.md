@@ -16,7 +16,15 @@ Earn a digital badge! In order to receive the ADX-in-Day completion digital badg
 <p align="center"><img src="/assets/images/badge.png" width="200"></p>
 
 
+### What is Data Explorer and when is it a good fit?
 
+Data Explorer is a fully managed, high-performance, big data analytics platform that makes it easy to analyze high volumes of data in near real time. The Azure Data Explorer toolbox gives you an end-to-end solution for data ingestion, query, visualization, and management.
+
+By analyzing structured, semi-structured, and unstructured data across time series, and by using Machine Learning, Azure Data Explorer makes it simple to extract key insights, spot patterns and trends, and create forecasting models. Azure Data Explorer is scalable, secure, robust, and enterprise-ready, and is useful for log analytics, time series analytics, IoT, and general-purpose exploratory analytics.
+
+**Note**: Data Explorer exists as both a Standalone offering (Azure Data Explorer) and part of Synapse (Synapse Data Explorer). All the content will apply to both these offerings (will be referred to as 'ADX') without any change.
+
+Data Explorer capabilities are extended by other services built on its powerful query language, including [Azure Monitor logs](https://docs.microsoft.com/en-us/azure/log-analytics/), [Application Insights](https://docs.microsoft.com/en-us/azure/application-insights/), [Time Series Insights](https://docs.microsoft.com/en-us/azure/time-series-insights/), and [Microsoft Defender for Endpoint](https://docs.microsoft.com/en-us/microsoft-365/security/defender-endpoint/microsoft-defender-endpoint)
 
 ### Scenario 
 
@@ -29,16 +37,6 @@ This workshop walks through the steps in designing, creating, and configuring Az
 - An Azure subscription
 - Upload the files in Data\Logistics_telemetry_Historical in to a storage account container
 - Authorization to create an Azure Data Explorer cluster or Synapse Data Explorer Pool
-
-### What is Data Explorer and when is it a good fit?
-
-Data Explorer is a fully managed, high-performance, big data analytics platform that makes it easy to analyze high volumes of data in near real time. The Azure Data Explorer toolbox gives you an end-to-end solution for data ingestion, query, visualization, and management.
-
-By analyzing structured, semi-structured, and unstructured data across time series, and by using Machine Learning, Azure Data Explorer makes it simple to extract key insights, spot patterns and trends, and create forecasting models. Azure Data Explorer is scalable, secure, robust, and enterprise-ready, and is useful for log analytics, time series analytics, IoT, and general-purpose exploratory analytics.
-
-**Note**: Data Explorer exists as both a Standalone offering (Azure Data Explorer) and part of Synapse (Synapse Data Explorer). All the content will apply to both these offerings (will be referred to as 'ADX') without any change.
-
-Data Explorer capabilities are extended by other services built on its powerful query language, including [Azure Monitor logs](https://docs.microsoft.com/en-us/azure/log-analytics/), [Application Insights](https://docs.microsoft.com/en-us/azure/application-insights/), [Time Series Insights](https://docs.microsoft.com/en-us/azure/time-series-insights/), and [Microsoft Defender for Endpoint](https://docs.microsoft.com/en-us/microsoft-365/security/defender-endpoint/microsoft-defender-endpoint)
 
 ### How to start with ADX
 Generally, when starting with Azure Data Explorer, you will follow the following steps (ADX workshops will cover all these steps):
