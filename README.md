@@ -13,7 +13,7 @@ This Lab will focus on enabling the participants to write Kusto queries to explo
 ---
 Earn a digital badge! In order to receive the ADX-in-Day completion digital badge, you will need to complete the challenges marked with 🎓 in each Lab. Please submit the KQL queries/commands using the answer sheet found at the beginning of Lab. </br></br>
 ---
-<p align="center"><img src="/assets/images/badge.png" width="200"></p>
+**Placeholder : "ADX in a Day" Digital Badge
 
 
 ### What is Data Explorer and when is it a good fit?
@@ -46,24 +46,8 @@ Generally, when starting with Azure Data Explorer, you will follow the following
 4. **Query data**: Azure Data Explorer uses the Kusto Query Language, which is an expressive, intuitive, and highly productive query language. It offers a smooth transition from simple one-liners to complex data processing scripts, and supports querying structured, semi-structured, and unstructured (text search) data. Use the web application to run, review, and share queries and results. You can also send queries programmatically (using an SDK) or to a REST API endpoint. 
 5. **Visualize results**: Use different visual displays of your data in the native Azure Data Explorer Dashboards. You can also display your results using connectors to some of the leading visualization services, such as Power BI and Grafana. 
 
-### Ready to go? It's Lab time!
-- [**Lab 1: Cluster creation and data ingestion**](https://github.com/Azure/ADX-in-a-Day-Lab1)
+### Ready to go? Click on the below links to start the challenges
+- [**Lab 1: Cluster Creation, Data Ingestion and Exploration**](https://github.com/Azure/ADX-in-a-Day-Lab1)
 
- // To Do: Include challenges from Microhack -
-
- // Challenge 1: Create an ADX cluster
-
- // Challenge 3: Starting with the basics of KQL
-
- // Challenge 4: Explore and transform data
- 
- // Challenge 7: Materialized views, Functions, External Tables
-
-- [**Lab 2: Data exploration and visualization using Kusto Query Language (KQL)**](https://github.com/Azure/ADX-in-a-Day-Lab2)
-
-- // To Do: Include challenges from Microhack -
-- // Challenge 8: Caching and retention policies
-- // Challenge 9: Control commands
-- // Challenge 5: Advanced KQL operators
-- // Challenge 6: Visualisation
+- [**Lab 2: Advanced KQL, Policies, and Visualization**](https://github.com/Azure/ADX-in-a-Day-Lab2)
 
