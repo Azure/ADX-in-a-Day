@@ -2,19 +2,19 @@
 
 Synapse Customer Success Enginnering team is pleased to present this ADX-in-a-day learning experience. The Hands on workshop is a challenge based, discover by doing experience divided into 2 parts of 4 Hours each, a total of 8 hours. 
 
-- [**Lab 1: Cluster creation and data ingestion**](https://github.com/Azure/ADX-in-a-Day-Lab1)
+- [**Lab 1: Cluster Creation, Data Ingestion and Exploration**](https://github.com/Azure/ADX-in-a-Day-Lab1)
 This Lab will focus on enabling the participants to design ADX based big data analytics solution, create an ADX cluster, and ingest data into the cluster - One click ingestion of historic data and update policy to perform ETL.
 // To Do: Explore historical load using one clik ingestion(Already available). Transformation function using .set-or-append, Materialized Views, Functions, Update policy, . Complete end-to-end data load scenario can be covered
 
 
-- [**Lab 2: Data exploration and visualization using Kusto Query Language (KQL)**](https://github.com/Azure/ADX-in-a-Day-Lab2)
+- [**Lab 2: Advanced KQL, Policies, and Visualization**](https://github.com/Azure/ADX-in-a-Day-Lab2)
 This Lab will focus on enabling the participants to write Kusto queries to explore and analyze the data stored in the clusters. Participants will also create cool visualizations. It is recommended to complete the Lab 1 before beginning with Lab 2.
 
 ---
 Earn a digital badge! In order to receive the ADX-in-Day completion digital badge, you will need to complete the challenges marked with 🎓 in each Lab. Please submit the KQL queries/commands using the answer sheet found at the beginning of Lab. </br></br>
 ---
 **Placeholder : "ADX in a Day" Digital Badge
-
+---
 
 ### What is Data Explorer and when is it a good fit?
 
