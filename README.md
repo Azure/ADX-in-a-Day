@@ -35,7 +35,7 @@ By analyzing structured, semi-structured, and unstructured data across time seri
 ADX capabilities are extended by other services built on its powerful query language, including [Azure Monitor logs](https://docs.microsoft.com/en-us/azure/log-analytics/), [Application Insights](https://docs.microsoft.com/en-us/azure/application-insights/), [Time Series Insights](https://docs.microsoft.com/en-us/azure/time-series-insights/), and [Microsoft Defender for Endpoint](https://docs.microsoft.com/en-us/microsoft-365/security/defender-endpoint/microsoft-defender-endpoint)
 
 
-<img src="/assets/images/DX_Pic.png" width=640>
+<img src="/assets/images/DX_Pic.png" width=800>
 
 
 ### Scenario 
