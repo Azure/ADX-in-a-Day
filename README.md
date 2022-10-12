@@ -1,17 +1,28 @@
 # Azure Data Explorer in a Day (Preview)
 
-Synapse Customer Success Enginnering team is pleased to present this ADX-in-a-day learning experience. The Hands on workshop is a challenge based, discover by doing experience divided into 2 parts of 4 Hours each, a total of 8 hours. 
+Welcome to a One Day, Hands on workshop on Azure Data Explorer. Synapse Customer Success Engineering team is delighted to present this challenge based, discover by doing experience divided into 2 labs of 4 Hours each, a total of 8 hours.
 
-- [**Lab 1: Cluster Creation, Data Ingestion and Exploration**](https://github.com/Azure/ADX-in-a-Day-Lab1)
+
+## After the workshop, you'll better understand how to
+- Setup Azure Data Explorer cluster and database
+- Ingest data into ADX database
+- Run Powerful KQL queries to explore the data
+- Manage ADX cluster and DB using control commands and policies
+- Visualize data in ADX Dashboards
+
+---
+
+ [**Lab 1: Cluster Creation, Data Ingestion and Exploration**](https://github.com/Azure/ADX-in-a-Day-Lab1)
 This Lab will focus on enabling the participants to Create an ADX cluster, and ingest data into the cluster - One click ingestion of historic data and update policy to perform ETL.
 
-- [**Lab 2: Advanced KQL, Policies, and Visualization**](https://github.com/Azure/ADX-in-a-Day-Lab2)
+ [**Lab 2: Advanced KQL, Policies, and Visualization**](https://github.com/Azure/ADX-in-a-Day-Lab2)
 This Lab will focus on enabling the participants to write Kusto queries to explore and analyze the data stored in the clusters. Participants will also create cool visualizations. It is recommended to complete the Lab 1 before beginning with Lab 2.
 
 ---
-Earn a digital badge! In order to receive the ADX-in-Day completion digital badge, you will need to complete the challenges marked with 🎓 in each Lab. Please submit the KQL queries/commands using the answer sheet found at the beginning of Lab. </br></br>
----
+Earn a digital badge! In order to receive the ADX-in-Day completion digital badge, you will need to complete the challenges marked with 🎓 in each Lab. Please submit the KQL queries/commands using the answer sheet found at the beginning of Lab. </br>
+
 **Placeholder : "ADX in a Day" Digital Badge
+
 ---
 
 ### What is Data Explorer and when is it a good fit?
@@ -22,7 +33,7 @@ By analyzing structured, semi-structured, and unstructured data across time seri
 
 **Note**: Data Explorer exists as both a Standalone offering (Azure Data Explorer) and part of Synapse (Synapse Data Explorer). All the content will apply to both these offerings (will be referred to as 'ADX') without any change.
 
-Data Explorer capabilities are extended by other services built on its powerful query language, including [Azure Monitor logs](https://docs.microsoft.com/en-us/azure/log-analytics/), [Application Insights](https://docs.microsoft.com/en-us/azure/application-insights/), [Time Series Insights](https://docs.microsoft.com/en-us/azure/time-series-insights/), and [Microsoft Defender for Endpoint](https://docs.microsoft.com/en-us/microsoft-365/security/defender-endpoint/microsoft-defender-endpoint)
+ADX capabilities are extended by other services built on its powerful query language, including [Azure Monitor logs](https://docs.microsoft.com/en-us/azure/log-analytics/), [Application Insights](https://docs.microsoft.com/en-us/azure/application-insights/), [Time Series Insights](https://docs.microsoft.com/en-us/azure/time-series-insights/), and [Microsoft Defender for Endpoint](https://docs.microsoft.com/en-us/microsoft-365/security/defender-endpoint/microsoft-defender-endpoint)
 
 ### Scenario 
 
