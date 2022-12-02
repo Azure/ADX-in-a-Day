@@ -20,7 +20,7 @@ This Lab will focus on enabling the participants to write Kusto queries to explo
 ---
 Earn a digital badge! In order to receive the ADX-in-Day completion digital badge, you will need to complete the challenges marked with 🎓 in each Lab. Please submit the KQL queries/commands using the answer sheet found at the beginning of Lab. </br>
 
-**Placeholder : "ADX in a Day" Digital Badge
+<img src="/assets/images/badge.png" width="200">
 
 ---
 
@@ -40,9 +40,9 @@ ADX capabilities are extended by other services built on its powerful query lang
 
 ### Scenario 
 
-Contoso is a supply chain logistics company that runs a fleet of ships, trucks, and cargo planes to transport and deliver goods around the world. Some of the world’s largest enterprises rely on Contoso’s logistics capabilities to deliver goods to their end customers. Contoso has invested in connecting its fleet with sensors that measure temperature, pressure, humidity, tilt, shock, and light exposure inside its fleet. These sensors emit telemetry data every 1 minute, property data whenever there is a change in the device property, and command data whenever a new command is executed. 
+Contoso is a enterprise services company serving other multinational companies. It deals with data extraction ,transformation , and load scenarios for it's customers who are using Azure native services like Azure Storage, Azure data factory, Azure SQL database. Constoso also maintains audit logs and system logs of it's data ETL processes. One customer recently approached Contoso asking to create a dashboard they can use to monitor their data ingestion from various sources in a single place. Customer has agreed to provide a sample dataset to Contoso.
 
-Contoso is looking for suitable analytical solution that provides out of the box integration with Azure services such as storage account for historical load and perform data analysis . Contoso is developing a SaaS application that will allow its customers to track, trace and monitor their shipments. Contoso wants to offer out of the box visualizations with interactive capabilities to enable its customers to drill-in/drill-out of the data. Contoso will offer its customers to view and analyze the last 6 months data. Contoso will retain every customer’s data for up to 1 year. Contoso wants to offer blazing fast loading of visualizations to its customers.
+Contoso is planning to perform exploratory data analysis on the system logs. It is looking for a suitable analytics platform that provides out of the box integration with Azure services such as storage account for historical load and perform data analysis . Contoso is developing a SaaS application that will allow its customers to trace and monitor their system logs. Contoso wants to offer out of the box visualizations with interactive capabilities to enable its customers to drill-in/drill-out of the data and offer blazing fast loading of visualizations to its customers.
 This workshop walks through the steps in designing, creating, and configuring Azure Data Explorer clusters keeping in mind these requirements. Once the cluster is deployed, this workshop enlists the steps to ingest data into ADX databases and tables using One Click ingestion.
 
 ### Pre-requisites
