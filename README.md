@@ -18,7 +18,7 @@ This Lab will focus on enabling the participants to Create a free ADX cluster, a
 This Lab will focus on enabling the participants to write Kusto queries to explore and analyze the data stored in the clusters. Participants will also create cool visualizations. It is recommended to complete the Lab 1 before beginning with Lab 2.
 
 ---
-Earn a digital badge! In order to receive the ADX-in-Day completion digital badge, you will need to complete the challenges marked with 🎓 in each Lab. Please submit the KQL queries/commands using the answer sheet found at the beginning of Lab. </br>
+Earn a digital badge! In order to receive the ADX-In-A-Day completion digital badge, you will need to complete the challenges marked with 🎓 in each Lab. Please submit the KQL queries/commands using the answer sheet found at the beginning of Lab. </br>
 
 <img src="/assets/images/badge.png" width="200">
 
@@ -40,14 +40,13 @@ ADX capabilities are extended by other services built on its powerful query lang
 
 ### Scenario 
 
-Contoso is a enterprise services company that deals with data extraction ,transformation , and load scenarios for it's customers who are using Azure native services like Azure Storage, Azure data factory, Azure SQL database. Constoso also maintains audit traces,  system logs and telemetry from Azure services and data ETL processes. One customer recently approached Contoso asking to create a dashboard they can use to monitor their Azure SQL Database logs in a single place. Customer has agreed to provide a sample dataset to Contoso.
+Contoso is an enterprise services company that deals with data extraction ,transformation , and load scenarios for it's customers who are using Azure native services like Azure Storage, Azure data factory, Azure SQL database. Constoso also maintains audit traces,  system logs and telemetry from Azure services and data ETL processes. One customer recently approached Contoso asking to create a dashboard they can use to monitor their Azure SQL Database logs in a single place. Customer has agreed to provide a sample dataset to Contoso.
 
 Contoso is planning to perform exploratory data analysis on the SQL DB logs. It is looking for a suitable analytics platform that provides out of the box integration with Azure services such as storage account for historical load and perform data analysis . Contoso is developing a SaaS application that will allow its customers to trace and monitor their system logs. Contoso wants to offer out of the box visualizations with interactive capabilities to enable its customers to drill-in/drill-out of the data and offer blazing fast loading of visualizations to its customers.
 This workshop walks through the steps in designing, creating, and configuring Azure Data Explorer clusters keeping in mind these requirements. Once the cluster is deployed, this workshop enlists the steps to ingest data into ADX databases and tables using One Click ingestion.
 
 ### Pre-requisites
 - Either a Microsoft account (MSA) or an Azure Active Directory (AAD) identity. This will be used to create free cluster.
-- Upload the files in Data\Logistics_telemetry_Historical in to a storage account container
 
 ### How to start with ADX
 Generally, when starting with Azure Data Explorer, you will follow the following steps (ADX Workshop Labs will cover all these steps):
