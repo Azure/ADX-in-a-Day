@@ -40,9 +40,11 @@ ADX capabilities are extended by other services built on its powerful query lang
 
 ### Scenario 
 
-Contoso is an enterprise services company that deals with data extraction ,transformation , and load scenarios for it's customers who are using Azure native services like Azure Storage, Azure data factory, Azure SQL database. Constoso also maintains audit traces,  system logs and telemetry from Azure services and data ETL processes. One customer recently approached Contoso asking to create a dashboard they can use to monitor their Azure SQL Database logs in a single place. Customer has agreed to provide a sample dataset to Contoso.
+Contoso is an enterprise services company that deals with data extraction, transformation, and load scenarios for it's customers who are using Azure native services like Azure Storage, Azure data factory, Azure SQL database.
+Constoso also maintains audit traces,  system logs and telemetry from Azure services and data ETL processes. One customer recently approached Contoso asking to create a dashboard they can use to monitor their Azure SQL Database logs in a single place. Customer has agreed to provide a sample dataset to Contoso.
 
 Contoso is planning to perform exploratory data analysis on the SQL DB logs. It is looking for a suitable analytics platform that provides out of the box integration with Azure services such as storage account for historical load and perform data analysis . Contoso is developing a SaaS application that will allow its customers to trace and monitor their system logs. Contoso wants to offer out of the box visualizations with interactive capabilities to enable its customers to drill-in/drill-out of the data and offer blazing fast loading of visualizations to its customers.
+
 This workshop walks through the steps in designing, creating, and configuring Azure Data Explorer clusters keeping in mind these requirements. Once the cluster is deployed, this workshop enlists the steps to ingest data into ADX databases and tables using One Click ingestion.
 
 ### Pre-requisites
