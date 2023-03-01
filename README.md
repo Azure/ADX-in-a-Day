@@ -1,4 +1,4 @@
-# Azure Data Explorer in a Day (Preview)
+# Azure Data Explorer in a Day
 
 Welcome to a One Day, Hands on workshop on Azure Data Explorer. Synapse Customer Success Engineering team is delighted to present this challenge based, discover by doing experience divided into 2 labs of 4 Hours each, a total of 8 hours.
 
