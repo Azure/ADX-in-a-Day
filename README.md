@@ -1,24 +1,24 @@
-# Azure Data Explorer in a Day
+# Microsoft Fabric Real-Time Analytics in a Day
 
-Welcome to a One Day, Hands on workshop on Azure Data Explorer. Synapse Customer Success Engineering team is delighted to present this challenge based, discover by doing experience divided into 2 labs of 4 Hours each, a total of 8 hours.
+Welcome to a One Day, Hands on workshop on Microsoft Fabric Real-Time Analytics. Microsoft Customer Success team is delighted to present this challenge based, discover by doing experience divided into 2 labs of 4 Hours each, a total of 8 hours.
 
 
 ## After the workshop, you'll better understand how to
-- Setup Free Azure Data Explorer cluster and database
-- Ingest data into ADX database
+- Create KQL database in your Fabric enabled Power BI workspace
+- Ingest data into KQL database
 - Run Powerful KQL queries to explore the data
-- Manage ADX cluster and DB using control commands and policies
-- Visualize data in ADX Dashboards
+- Manage KQL database using control commands and policies
+- Visualize data in KQL database Dashboards
 
 
- [**Lab 1: Cluster Creation, Data Ingestion and Exploration**](https://github.com/Azure/ADX-in-a-Day-Lab1)
-This Lab will focus on enabling the participants to Create a free ADX cluster, and ingest data into the cluster - One click ingestion of historic data , update policy to perform ETL and write some KQL queries. 
+ [**Lab 1: Database Creation, Data Ingestion and Exploration**](https://github.com/Azure/ADX-in-a-Day-Lab1)
+This Lab will focus on enabling the participants to Create a KQL database, and ingest data into the KQL database table - One click ingestion of historic data , update policy to perform ETL and write some KQL queries. 
 
  [**Lab 2: Advanced KQL, Policies, and Visualization**](https://github.com/Azure/ADX-in-a-Day-Lab2)
-This Lab will focus on enabling the participants to write Kusto queries to explore and analyze the data stored in the clusters. Participants will also create cool visualizations. It is recommended to complete the Lab 1 before beginning with Lab 2.
+This Lab will focus on enabling the participants to write Kusto queries to explore and analyze the data stored in the KQL database. Participants will also create cool visualizations. It is recommended to complete the Lab 1 before beginning with Lab 2.
 
 ---
-Earn a digital badge! In order to receive the ADX-In-A-Day completion digital badge, you will need to complete the challenges marked with ✅ in each Lab. Please submit the results using the answer sheet found at the beginning of Lab. </br>
+Earn a digital badge! In order to receive the Microsoft Fabric Real-Time Analytics in a Day completion digital badge, you will need to complete the challenges marked with ✅ in each Lab. Please submit the results using the answer sheet found at the beginning of Lab. </br>
 
 <p align="center"><img src="/assets/images/badge.png" width="300"></p>
 
