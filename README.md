@@ -55,7 +55,7 @@ Generally, when starting with KQL Database in Fabric, you will follow the follow
 1. **Create database**: Create KQL Database in Fabric Real-Time Analytics. 
 2. **Ingest data**: Load data into database tables so that you can run queries against it. KQL Database supports several ingestion methods.
 3. **Query data**: KQL Database uses the Kusto Query Language, which is an expressive, intuitive, and highly productive query language. It offers a smooth transition from simple one-liners to complex data processing scripts, and supports querying structured, semi-structured, and unstructured (text search) data. Use the web application to run, review, and share queries and results. You can also send queries programmatically (using an SDK) or to a REST API endpoint. 
-5. **Visualize results**: Use different visual displays of your data in the native KQL Database Dashboards. You can also display your results using connectors to some of the leading visualization services, such as Power BI and Grafana. 
+4. **Visualize results**: Use different visual displays of your data in the native KQL Database Dashboards. You can also display your results using connectors to some of the leading visualization services, such as Power BI and Grafana. 
 
 ### Ready to go? Click on the below links to start the challenges
 - [**Lab 1: Cluster Creation, Data Ingestion and Exploration**](https://github.com/Azure/ADX-in-a-Day-Lab1)
