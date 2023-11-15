@@ -1,0 +1,89 @@
+.alter table ingestionLogs policy retention 
+```
+{ 
+    "SoftDeletePeriod": "10:12:00:00",
+    "Recoverability": "Enabled"
+}
+```
+
+.show queries
+
+.show journal | where * has 'ManiputatelogsRaw'
+| order by EventTimestamp
+
+
+.show commands 
+| where User =='hiramfleitas@microsoft.com'
+| project CommandType, Text,  AuthScheme = tostring(ClientRequestProperties.AuthorizationScheme)
+| distinct AuthScheme
+
+
+.show table ingestionLogs details
+| extend CachingPolicy=todynamic(CachingPolicy)
+| project CachingPolicy.DataHotSpan
+
+
+let LogType = 'Warning';
+let TimeBucket = 1m;
+ingestionLogs
+| where Level == LogType
+| summarize count() by bin(Timestamp, TimeBucket)
+| where Timestamp == '2014-03-08 00:00:00.0000'
+
+
+search 'Exception=System.Timeout'
+
+search Message:"Exception" or Message:"Timeout"
+
+search in (logsRaw, ingestionLogs) "Exception=System.Timeout"
+
+
+print str="ThreadId:458745723, Machine:Node001, Text: The service is up, Level: Info"
+| parse-kv str as (Text: string, ThreadId:long, Machine: string) with (pair_delimiter=',', kv_delimiter=':')
+| project-away str
+
+print str="$IngestionCommand table=scaleEvents format=json"
+| parse-kv str as (Text: string, table:string , format: string) with (pair_delimiter=' ', kv_delimiter='=')
+| project-away str
+
+
+ingestionLogs
+| where Component  == 'INGESTOR_GATEWAY'
+| parse-kv Message as (Text: string, table:string , format: string) with (pair_delimiter=' ', kv_delimiter='=')
+| summarize count() by format
+
+
+let TimeBuckets = 1m;
+ingestionLogs
+| extend Size = tolong(Properties.size)
+| make-series ActualSize=round(avg(Size),2) on Timestamp step TimeBuckets
+| extend anomaly  = series_decompose_anomalies(ActualSize, 0.5)
+// | render anomalychart with(anomalycolumns=anomaly, title='Ingestion Anomalies')
+| mv-expand anomaly to typeof(int)
+| where anomaly <> 0
+
+
+//2014-03-08 04:24:00:000?
+let TimeBuckets = 1m;
+ingestionLogs
+| extend Size = tolong(Properties.size)
+| make-series ActualSize=round(avg(Size),2) on Timestamp step TimeBuckets
+| extend anomaly = series_decompose_anomalies(ActualSize)
+| render anomalychart 
+
+
+let _startTime='2014-03-08T00:00:00';
+let _endTime='2014-03-08T10:00:00';
+let TimeBuckets=1m;
+ingestionLogs
+| where Timestamp between (todatetime(_startTime) .. todatetime(_endTime))
+// | summarize count() by bin(Timestamp, 10m), Component
+| make-series MySeries=count() on Timestamp step TimeBuckets
+| extend anomaly = series_decompose_anomalies(MySeries)
+| render anomalychart 
+
+
+ingestionLogs
+| where Timestamp between (datetime(2014-03-08T00:00:00) .. datetime(2014-03-08T10:00:00))
+| summarize count() by Level
+| render piechart 
