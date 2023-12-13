@@ -1,0 +1,36 @@
+//if its been more than 10d, re-ingest using 1.4.2.4 .ingest async cmds.
+
+ingestionLogs
+| where Timestamp between (datetime(2014-03-08T00:00:00) .. datetime(2014-03-08T10:00:00))
+| summarize count() by Level
+| render piechart 
+
+
+/////////
+// RLS //
+/////////
+
+//my RLS query
+let IsManager = false; //let IsManager=current_principal_is_member_of("aadgroup=managers@company.com");
+let OnlyErrors = ingestionLogs | where Level == "Error" and not(IsManager);
+let allData = ingestionLogs | where IsManager;
+union OnlyErrors,allData
+
+
+//create RLS function using my query
+.create-or-alter function RLSFunction() {
+let IsManager = false;
+let OnlyErrors = ingestionLogs | where Level == "Error" and not(IsManager);
+let allData = ingestionLogs | where IsManager;
+union OnlyErrors,allData
+}
+
+//enable it
+.alter table ingestionLogs policy row_level_security enable 'RLSFunction()'
+
+
+//test
+ingestionLogs
+| where Timestamp between (datetime(2014-03-08T00:00:00) .. datetime(2014-03-08T10:00:00))
+| summarize count() by Level
+| render piechart 
