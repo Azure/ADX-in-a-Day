@@ -155,7 +155,7 @@ logsRaw
 | count //1442786
 
 print ratio=todouble(93648)/todouble(1442786)
-// do you want a easier...programatic way? then proceed.
+// do you want an easier...programatic way? then proceed.
 
 
 // using expressions & multi-line statements
