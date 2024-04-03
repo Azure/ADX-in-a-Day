@@ -49,6 +49,7 @@ This workshop walks through the steps in designing, creating, and configuring Az
 
 ### Pre-requisites
 - Either a Microsoft account (MSA) or an Azure Active Directory (AAD) identity. This will be used to create free cluster.
+- For people seeing KQL (Kusto Query Language) for the first time, we recommend completing this module https://aka.ms/learn.kql prior to completing this open-hack.
 
 ### How to start with ADX
 Generally, when starting with Azure Data Explorer, you will follow the following steps (ADX Workshop Labs will cover all these steps):
