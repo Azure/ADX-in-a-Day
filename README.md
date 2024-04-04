@@ -49,7 +49,17 @@ This workshop walks through the steps in designing, creating, and configuring Az
 
 ### Pre-requisites
 - Either a Microsoft account (MSA) or an Azure Active Directory (AAD) identity. This will be used to create free cluster.
-- For people seeing KQL (Kusto Query Language) for the first time, we recommend completing this module https://aka.ms/learn.kql prior to completing this open-hack.
+- Recommend completing at least one or a few of these **prior** to ADX-in-a-Day Labs. 
+  - **Start here:** [Write your first query](https://aka.ms/learn.kql) 
+  - [1 - Learn common operators](https://learn.microsoft.com/azure/data-explorer/kusto/query/tutorials/learn-common-operators)
+  - [2 - Use aggregation functions](https://learn.microsoft.com/azure/data-explorer/kusto/query/tutorials/use-aggregation-functions)
+  - [3 - Join data from multiple tables](https://learn.microsoft.com/azure/data-explorer/kusto/query/tutorials/join-data-from-multiple-tables)
+  - [4 - Create geospatial visualizations](https://learn.microsoft.com/azure/data-explorer/kusto/query/tutorials/create-geospatial-visualizations)
+  - [Tutorial: Route data using update policies](https://learn.microsoft.com/azure/data-explorer/kusto/management/update-policy-tutorial)
+  - [Free Pluralsight training: Azure Data Explorer](https://aka.ms/adx.pluralsight) (includes KQL from Scratch)
+  - [Cloud Academy: Introduction to Kusto Query Language](https://cloudacademy.com/lab/introduction-to-kusto-query-language)
+  - [Kusto Detective Agency](https://detective.kusto.io)
+  - [Kusto Detective Agency - SANS 2023](https://detective.kusto.io/sans2023)
 
 ### How to start with ADX
 Generally, when starting with Azure Data Explorer, you will follow the following steps (ADX Workshop Labs will cover all these steps):
