@@ -49,7 +49,7 @@ This workshop walks through the steps in designing, creating, and configuring Az
 
 ### Pre-requisites
 - Either a Microsoft account (MSA) or an Azure Active Directory (AAD) identity. This will be used to create free cluster.
-- Recommend completing at least one or a few of these **prior** to ADX-in-a-Day Labs. 
+- Recommend completing at least one or a few of these **prior** to _ADX-in-a-Day_ Labs. 
   - **Start here:** [Write your first query](https://aka.ms/learn.kql) 
   - [1 - Learn common operators](https://learn.microsoft.com/azure/data-explorer/kusto/query/tutorials/learn-common-operators)
   - [2 - Use aggregation functions](https://learn.microsoft.com/azure/data-explorer/kusto/query/tutorials/use-aggregation-functions)
