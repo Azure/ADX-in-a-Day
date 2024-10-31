@@ -74,3 +74,11 @@ Generally, when starting with Azure Data Explorer, you will follow the following
 
 - [**Lab 2: Advanced KQL, Policies, and Visualization**](https://github.com/Azure/ADX-in-a-Day-Lab2)
 
+### Proctor Guidance
+- Leverage pptx files in [assets](assets) folder. [ADXinADay-Part1](assets/ADXinADay-Part1.pptx) may take 30-45 minutes to cover and [ADXinADay-Part2](assets/ADXinADay-Part2.pptx) may take 15-30 minutes to cover. 
+- Recommend splitting the _in a day_ workshop into two parts of 4hrs (wether in a single day or across multiple days) considering breaks, etc in between.
+- The goal is to get attendies to complete the hands-on labs, which is where they'll find the most value, not spending too much time on the presentation.
+- If you need assistance, pls feel free to log an Issue for this repo.
+- See [Instructor-Guidance.docx](assets/Instructor-Guidance.docx) for additional information.
+- For attendies that are looking for level 100-200 content recommend completing [Write your first query with Kusto Query Language](https://aka.ms/learn.kql) prior to attending this workhop lab.
+- For advanced attendies looking for level 400+ content recommend completeing [Kusto Detective Agency](https://detective.kusto.io)
